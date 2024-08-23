@@ -13,6 +13,8 @@ function alunosAprovados(alunos) {
     return alunos.filter(aluno => aluno.nota >= 6);
 }
 
-// Chamada da função e exibição do resultado
+// Chamada da função 
 const aprovados = alunosAprovados(alunos);
+
+// Exibir o resultado 
 console.log(aprovados);
